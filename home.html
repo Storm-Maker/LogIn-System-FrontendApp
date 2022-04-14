@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Home Page</title>
+
+        <link rel="stylesheet" href="vendors/css/all.min.css">
+        <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+
+        <script src="vendors/js/jquery-3.6.0.min.js"></script>
+        <script src="vendors/js/popper.min.js"></script>
+        <script src="vendors/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="homePage">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-focused">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand mx-5" id="signoutLink">SMART LOGIN</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div class="d-flex justify-content-end mt-2 w-100">
+                    <button class="btn btn-outline-warning mx-5" id="logoutBtn">Logout</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="container my-5 text-center h-75 d-flex align-items-center justify-content-center">
+            <div class="bg-focused m-auto w-75 p-5" id="userWelcome">
+                <h1>Forbidden Access: You Have To Login!!</h1>
+            </div>
+        </div>
+
+
+
+        <script src="resources/js/script.js"></script>
+    </body>
+</html>

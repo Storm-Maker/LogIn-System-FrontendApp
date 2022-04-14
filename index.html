@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Log-In</title>
+
+        <link rel="stylesheet" href="vendors/css/all.min.css">
+        <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+
+        <script src="vendors/js/jquery-3.6.0.min.js"></script>
+        <script src="vendors/js/popper.min.js"></script>
+        <script src="vendors/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="signIn">
+        <div class="container text-center my-5">
+            <div class="m-auto w-75 p-5 bg-focused">
+
+                <h1>Smart Login System</h1>
+
+                <input class="form-control my-3" id="emailInput" placeholder="Enter your Email" type="email">
+                <input class="form-control mt-3 mb-4" id="passwordInput" placeholder="Enter your Password" type="password">
+
+                <div class="loginWarning w-100 m-auto my-3" id="warningDialog"></div>
+                
+                <button class="btn btn-outline-info w-100 mb-3" id="loginBtn">Login</button>
+        
+                <p>Don't have an account? <span id="signUpLink">Sign Up</span> </p>
+            </div>
+
+        </div>
+
+        <script src="resources/js/script.js"></script>
+    </body>
+</html>

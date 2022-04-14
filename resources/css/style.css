@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.15;
+  background-color: #24353f;
+  color: #fff;
+}
+h1 {
+  color: #17a2b8;
+  font-weight: 500;
+}
+h2 {
+  cursor: pointer;
+  font-family: "Titillium Web", sans-serif;
+}
+.bg-focused {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+input {
+  background-color: transparent !important;
+  opacity: 0.8 !important;
+  color: #fff !important;
+}
+.bg-focused a {
+  color: rgba(255, 255, 255, 0.774) !important;
+  cursor: pointer;
+}
+#signUpLink,
+#signInLink {
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  #logoutBtn {
+    width: 100%;
+  }
+}
+.guideDialog {
+  color: red;
+}
+#warningDialog p {
+  /* font: x-large !important; */
+  font-size: x-large;
+  font-weight: bold;
+}
